@@ -8,6 +8,14 @@ public class Field {
         field = new char[10][10];
     }
 
+    public char[][] getField() {
+        return field;
+    }
+
+    public void setField(char[][] field) {
+        this.field = field;
+    }
+
     //build command
     public void buildField(){
 

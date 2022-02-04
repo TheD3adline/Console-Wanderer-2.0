@@ -6,6 +6,7 @@ public class Main {
 
         Field field = new Field();
         field.buildField();
+        Player player = new Player(field);
         field.printField();
 
     }
