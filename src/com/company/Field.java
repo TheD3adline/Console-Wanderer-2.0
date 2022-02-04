@@ -4,6 +4,7 @@ public class Field {
 
     private char[][] field;
 
+    //constructor command, creates field array with a size of 10x10
     Field() {
         field = new char[10][10];
     }
