@@ -121,6 +121,8 @@ public class Player {
             field.printField();
         } else {
             System.out.println("There is a wall in front of you...");
+            System.out.println();
+            field.printField();
         }
 
     }
